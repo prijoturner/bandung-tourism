@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8E9C0D210AC6EC4F3183AE /* Pods_Bandung_Tourism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7240C0DBB9EEF72B6454D63C /* Pods_Bandung_Tourism.framework */; };
+		E75C20571D929576008ACB60 /* DestinationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C20561D929576008ACB60 /* DestinationAnnotation.swift */; };
+		E75C20591D929E63008ACB60 /* StaffPickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C20581D929E63008ACB60 /* StaffPickTableViewController.swift */; };
+		E75C205B1D929F98008ACB60 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C205A1D929F98008ACB60 /* SearchTableViewController.swift */; };
+		E7B15A5C1DFADA4400DF4BDA /* Bandung.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E7B15A5B1DFADA4400DF4BDA /* Bandung.gpx */; };
+		E7B15A5E1DFAEB6900DF4BDA /* ResizeImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B15A5D1DFAEB6900DF4BDA /* ResizeImageProcessor.swift */; };
+		E7CD4B521D907F8C00397F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B511D907F8C00397F3E /* AppDelegate.swift */; };
+		E7CD4B591D907F8C00397F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CD4B571D907F8C00397F3E /* Main.storyboard */; };
+		E7CD4B5B1D907F8C00397F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CD4B5A1D907F8C00397F3E /* Assets.xcassets */; };
+		E7CD4B5E1D907F8C00397F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CD4B5C1D907F8C00397F3E /* LaunchScreen.storyboard */; };
+		E7CD4B6A1D907FFB00397F3E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B691D907FFB00397F3E /* Constant.swift */; };
+		E7CD4B701D90855900397F3E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B6F1D90855900397F3E /* UIColorExtensions.swift */; };
+		E7CD4B761D9185F800397F3E /* GE_Inspira_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7CD4B721D9185F800397F3E /* GE_Inspira_Bold.ttf */; };
+		E7CD4B771D9185F800397F3E /* GE_Inspira_Bold_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7CD4B731D9185F800397F3E /* GE_Inspira_Bold_Italic.ttf */; };
+		E7CD4B781D9185F800397F3E /* GE_Inspira_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7CD4B741D9185F800397F3E /* GE_Inspira_Italic.ttf */; };
+		E7CD4B791D9185F800397F3E /* GE_Inspira_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7CD4B751D9185F800397F3E /* GE_Inspira_Regular.ttf */; };
+		E7CD4B7B1D9189C800397F3E /* BTNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B7A1D9189C800397F3E /* BTNavigationViewController.swift */; };
+		E7CD4B7D1D918A6A00397F3E /* DestinationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B7C1D918A6A00397F3E /* DestinationTableViewController.swift */; };
+		E7CD4B801D91B25300397F3E /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B7F1D91B25300397F3E /* DestinationTableViewCell.swift */; };
+		E7CD4B821D91B35500397F3E /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B811D91B35500397F3E /* Destination.swift */; };
+		E7CD4B841D91C0B300397F3E /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B831D91C0B300397F3E /* DestinationViewController.swift */; };
+		E7CD4B861D925C7A00397F3E /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B851D925C7A00397F3E /* NearMeViewController.swift */; };
+		E7CD4B881D925DAE00397F3E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD4B871D925DAE00397F3E /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		159C81E0C33DD0BF5AF3D78C /* Pods-Bandung Tourism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandung Tourism.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bandung Tourism/Pods-Bandung Tourism.release.xcconfig"; sourceTree = "<group>"; };
+		5245EDF829D6A9BAC64A02AE /* Pods-Bandung Tourism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandung Tourism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bandung Tourism/Pods-Bandung Tourism.debug.xcconfig"; sourceTree = "<group>"; };
+		7240C0DBB9EEF72B6454D63C /* Pods_Bandung_Tourism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bandung_Tourism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F00C12A32E856C5035CC3D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75C20561D929576008ACB60 /* DestinationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationAnnotation.swift; sourceTree = "<group>"; };
+		E75C20581D929E63008ACB60 /* StaffPickTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffPickTableViewController.swift; sourceTree = "<group>"; };
+		E75C205A1D929F98008ACB60 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		E7B15A5B1DFADA4400DF4BDA /* Bandung.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bandung.gpx; sourceTree = "<group>"; };
+		E7B15A5D1DFAEB6900DF4BDA /* ResizeImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeImageProcessor.swift; sourceTree = "<group>"; };
+		E7CD4B4E1D907F8C00397F3E /* Bandung Tourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bandung Tourism.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CD4B511D907F8C00397F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7CD4B581D907F8C00397F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7CD4B5A1D907F8C00397F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7CD4B5D1D907F8C00397F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7CD4B5F1D907F8D00397F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7CD4B691D907FFB00397F3E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E7CD4B6F1D90855900397F3E /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		E7CD4B721D9185F800397F3E /* GE_Inspira_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_Inspira_Bold.ttf; sourceTree = "<group>"; };
+		E7CD4B731D9185F800397F3E /* GE_Inspira_Bold_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_Inspira_Bold_Italic.ttf; sourceTree = "<group>"; };
+		E7CD4B741D9185F800397F3E /* GE_Inspira_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_Inspira_Italic.ttf; sourceTree = "<group>"; };
+		E7CD4B751D9185F800397F3E /* GE_Inspira_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_Inspira_Regular.ttf; sourceTree = "<group>"; };
+		E7CD4B7A1D9189C800397F3E /* BTNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationViewController.swift; sourceTree = "<group>"; };
+		E7CD4B7C1D918A6A00397F3E /* DestinationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationTableViewController.swift; sourceTree = "<group>"; };
+		E7CD4B7F1D91B25300397F3E /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
+		E7CD4B811D91B35500397F3E /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		E7CD4B831D91C0B300397F3E /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		E7CD4B851D925C7A00397F3E /* NearMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
+		E7CD4B871D925DAE00397F3E /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7CD4B4B1D907F8C00397F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8E9C0D210AC6EC4F3183AE /* Pods_Bandung_Tourism.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBF55B5BFF629E590D15B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8F00C12A32E856C5035CC3D /* Pods.framework */,
+				7240C0DBB9EEF72B6454D63C /* Pods_Bandung_Tourism.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5E3CF26FBEFD7B9511E6B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5245EDF829D6A9BAC64A02AE /* Pods-Bandung Tourism.debug.xcconfig */,
+				159C81E0C33DD0BF5AF3D78C /* Pods-Bandung Tourism.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7CD4B451D907F8C00397F3E = {
+			isa = PBXGroup;
+			children = (
+				E7CD4B501D907F8C00397F3E /* Bandung Tourism */,
+				E7CD4B4F1D907F8C00397F3E /* Products */,
+				5DBF55B5BFF629E590D15B29 /* Frameworks */,
+				A5E3CF26FBEFD7B9511E6B59 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E7CD4B4F1D907F8C00397F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD4B4E1D907F8C00397F3E /* Bandung Tourism.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7CD4B501D907F8C00397F3E /* Bandung Tourism */ = {
+			isa = PBXGroup;
+			children = (
+				E7B15A5B1DFADA4400DF4BDA /* Bandung.gpx */,
+				E7CD4B711D9185F800397F3E /* Fonts */,
+				E7CD4B661D907FEE00397F3E /* Library */,
+				E7CD4B671D907FEE00397F3E /* Model */,
+				E7CD4B681D907FEE00397F3E /* View Controller */,
+				E7CD4B651D907FD600397F3E /* Utilities */,
+				E7CD4B511D907F8C00397F3E /* AppDelegate.swift */,
+				E7CD4B571D907F8C00397F3E /* Main.storyboard */,
+				E7CD4B5A1D907F8C00397F3E /* Assets.xcassets */,
+				E7CD4B5C1D907F8C00397F3E /* LaunchScreen.storyboard */,
+				E7CD4B5F1D907F8D00397F3E /* Info.plist */,
+			);
+			path = "Bandung Tourism";
+			sourceTree = "<group>";
+		};
+		E7CD4B651D907FD600397F3E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD4B691D907FFB00397F3E /* Constant.swift */,
+				E7CD4B6F1D90855900397F3E /* UIColorExtensions.swift */,
+				E7CD4B871D925DAE00397F3E /* Data.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E7CD4B661D907FEE00397F3E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E7CD4B671D907FEE00397F3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD4B811D91B35500397F3E /* Destination.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7CD4B681D907FEE00397F3E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD4B7E1D91B24700397F3E /* Custom View */,
+				E7CD4B7A1D9189C800397F3E /* BTNavigationViewController.swift */,
+				E7CD4B7C1D918A6A00397F3E /* DestinationTableViewController.swift */,
+				E7CD4B831D91C0B300397F3E /* DestinationViewController.swift */,
+				E7CD4B851D925C7A00397F3E /* NearMeViewController.swift */,
+				E75C20581D929E63008ACB60 /* StaffPickTableViewController.swift */,
+				E75C205A1D929F98008ACB60 /* SearchTableViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E7CD4B711D9185F800397F3E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD4B721D9185F800397F3E /* GE_Inspira_Bold.ttf */,
+				E7CD4B731D9185F800397F3E /* GE_Inspira_Bold_Italic.ttf */,
+				E7CD4B741D9185F800397F3E /* GE_Inspira_Italic.ttf */,
+				E7CD4B751D9185F800397F3E /* GE_Inspira_Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E7CD4B7E1D91B24700397F3E /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD4B7F1D91B25300397F3E /* DestinationTableViewCell.swift */,
+				E75C20561D929576008ACB60 /* DestinationAnnotation.swift */,
+				E7B15A5D1DFAEB6900DF4BDA /* ResizeImageProcessor.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7CD4B4D1D907F8C00397F3E /* Bandung Tourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CD4B621D907F8D00397F3E /* Build configuration list for PBXNativeTarget "Bandung Tourism" */;
+			buildPhases = (
+				5C9E902766405E56796B2034 /* [CP] Check Pods Manifest.lock */,
+				E7CD4B4A1D907F8C00397F3E /* Sources */,
+				E7CD4B4B1D907F8C00397F3E /* Frameworks */,
+				E7CD4B4C1D907F8C00397F3E /* Resources */,
+				E4F6222C31B04308A3F4C3DC /* [CP] Embed Pods Frameworks */,
+				4438169BDE2C036CAC61C366 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bandung Tourism";
+			productName = "Bandung Tourism";
+			productReference = E7CD4B4E1D907F8C00397F3E /* Bandung Tourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7CD4B461D907F8C00397F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ezio;
+				TargetAttributes = {
+					E7CD4B4D1D907F8C00397F3E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BNE2WCVV4K;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E7CD4B491D907F8C00397F3E /* Build configuration list for PBXProject "Bandung Tourism" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7CD4B451D907F8C00397F3E;
+			productRefGroup = E7CD4B4F1D907F8C00397F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7CD4B4D1D907F8C00397F3E /* Bandung Tourism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7CD4B4C1D907F8C00397F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CD4B761D9185F800397F3E /* GE_Inspira_Bold.ttf in Resources */,
+				E7CD4B771D9185F800397F3E /* GE_Inspira_Bold_Italic.ttf in Resources */,
+				E7CD4B5E1D907F8C00397F3E /* LaunchScreen.storyboard in Resources */,
+				E7CD4B781D9185F800397F3E /* GE_Inspira_Italic.ttf in Resources */,
+				E7CD4B5B1D907F8C00397F3E /* Assets.xcassets in Resources */,
+				E7CD4B591D907F8C00397F3E /* Main.storyboard in Resources */,
+				E7CD4B791D9185F800397F3E /* GE_Inspira_Regular.ttf in Resources */,
+				E7B15A5C1DFADA4400DF4BDA /* Bandung.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4438169BDE2C036CAC61C366 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bandung Tourism/Pods-Bandung Tourism-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9E902766405E56796B2034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F6222C31B04308A3F4C3DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bandung Tourism/Pods-Bandung Tourism-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7CD4B4A1D907F8C00397F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CD4B801D91B25300397F3E /* DestinationTableViewCell.swift in Sources */,
+				E7CD4B881D925DAE00397F3E /* Data.swift in Sources */,
+				E7CD4B861D925C7A00397F3E /* NearMeViewController.swift in Sources */,
+				E7CD4B7D1D918A6A00397F3E /* DestinationTableViewController.swift in Sources */,
+				E7CD4B7B1D9189C800397F3E /* BTNavigationViewController.swift in Sources */,
+				E7CD4B521D907F8C00397F3E /* AppDelegate.swift in Sources */,
+				E7CD4B6A1D907FFB00397F3E /* Constant.swift in Sources */,
+				E7CD4B821D91B35500397F3E /* Destination.swift in Sources */,
+				E7CD4B841D91C0B300397F3E /* DestinationViewController.swift in Sources */,
+				E7CD4B701D90855900397F3E /* UIColorExtensions.swift in Sources */,
+				E7B15A5E1DFAEB6900DF4BDA /* ResizeImageProcessor.swift in Sources */,
+				E75C205B1D929F98008ACB60 /* SearchTableViewController.swift in Sources */,
+				E75C20571D929576008ACB60 /* DestinationAnnotation.swift in Sources */,
+				E75C20591D929E63008ACB60 /* StaffPickTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7CD4B571D907F8C00397F3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CD4B581D907F8C00397F3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7CD4B5C1D907F8C00397F3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CD4B5D1D907F8C00397F3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7CD4B601D907F8D00397F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7CD4B611D907F8D00397F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7CD4B631D907F8D00397F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5245EDF829D6A9BAC64A02AE /* Pods-Bandung Tourism.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taufik Rohmat (2AD64A8RKP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Taufik Rohmat (2AD64A8RKP)";
+				DEVELOPMENT_TEAM = BNE2WCVV4K;
+				INFOPLIST_FILE = "Bandung Tourism/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezio.Bandung-Tourism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bd42c696-948e-4816-a4b5-9aadb0d9b871";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Pikpun Development WildCard";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E7CD4B641D907F8D00397F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159C81E0C33DD0BF5AF3D78C /* Pods-Bandung Tourism.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Taufik Rohmat (BNE2WCVV4K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Taufik Rohmat (BNE2WCVV4K)";
+				DEVELOPMENT_TEAM = BNE2WCVV4K;
+				INFOPLIST_FILE = "Bandung Tourism/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezio.Bandung-Tourism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21879196-f3c4-42ca-a430-a06178049373";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard adhoc";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7CD4B491D907F8C00397F3E /* Build configuration list for PBXProject "Bandung Tourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CD4B601D907F8D00397F3E /* Debug */,
+				E7CD4B611D907F8D00397F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CD4B621D907F8D00397F3E /* Build configuration list for PBXNativeTarget "Bandung Tourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CD4B631D907F8D00397F3E /* Debug */,
+				E7CD4B641D907F8D00397F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7CD4B461D907F8C00397F3E /* Project object */;
+}

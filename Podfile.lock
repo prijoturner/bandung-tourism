@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.2.0)
+  - DTPhotoViewerController (0.2.1)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - iCarousel (1.8.3)
+  - Kingfisher (3.2.2)
+  - LKPullToLoadMore (1.3.0)
+  - PKHUD (4.0.0)
+  - XCDYouTubeKit (2.5.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - DTPhotoViewerController
+  - GoogleMaps
+  - iCarousel
+  - Kingfisher
+  - LKPullToLoadMore
+  - PKHUD
+  - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  DTPhotoViewerController: 4dd6412172b0d9931b505c1b7d4d99a06438d06b
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  Kingfisher: 821466474ad7ffc375a4aecadfa05068cfed67b3
+  LKPullToLoadMore: 09afcc528ef02750280572391967430e895baaa8
+  PKHUD: 2bb45c936bb8afa39f3cd33ec14e8cc89f624255
+  XCDYouTubeKit: 90690f9e3523735dc93b8024269d991b0cfffe78
+
+PODFILE CHECKSUM: fed9d85860baea8210b9f20dc9d684e32e2ae81e
+
+COCOAPODS: 1.1.0.rc.2
